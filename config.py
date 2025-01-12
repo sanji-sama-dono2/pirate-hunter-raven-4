@@ -34,7 +34,7 @@ DB_NAME = os.environ.get("DATABASE_NAME", "piratehunterzororavenbot")
 #force sub channel id, if you want enable force sub
 FORCE_SUB_CHANNEL_1 = int(os.environ.get("FORCE_SUB_CHANNEL_1", "-1002038915478"))
 FORCE_SUB_CHANNEL_2 = int(os.environ.get("FORCE_SUB_CHANNEL_2", "-1002034252225"))
-FORCE_SUB_CHANNEL_3 = int(os.environ.get("FORCE_SUB_CHANNEL_3", "-1002014998533"))
+FORCE_SUB_CHANNEL_3 = int(os.environ.get("FORCE_SUB_CHANNEL_3", "-1002357230424"))
 FORCE_SUB_CHANNEL_4 = int(os.environ.get("FORCE_SUB_CHANNEL_4", "-1001566547811"))
 
 
@@ -50,7 +50,7 @@ except ValueError:
         raise Exception("Your Admins list does not contain valid integers.")
 
 #Force sub message 
-FORCE_MSG = os.environ.get("FORCE_SUB_MESSAGE", "<b><blockquote>›› ʜᴇʏ {mention} ×,</blockquote>\n  ʏᴏᴜʀ ғɪʟᴇ ɪs ʀᴇᴀᴅʏ ‼️ ʟᴏᴏᴋs ʟɪᴋᴇ ʏᴏᴜ ʜᴀᴠᴇɴ'ᴛ sᴜʙsᴄʀɪʙᴇᴅ ᴛᴏ ᴏᴜʀ ᴄʜᴀɴɴᴇʟs ʏᴇᴛ, sᴜʙsᴄʀɪʙᴇ ɴᴏᴡ ᴛᴏ ɢᴇᴛ ʏᴏᴜʀ ғɪʟᴇs.</b>")
+FORCE_MSG = os.environ.get("FORCE_SUB_MESSAGE", "<b>›› ʜᴇʏ {mention} ×,\n\n  ʏᴏᴜʀ ғɪʟᴇ ɪs ʀᴇᴀᴅʏ ‼️ ʟᴏᴏᴋs ʟɪᴋᴇ ʏᴏᴜ ʜᴀᴠᴇɴ'ᴛ sᴜʙsᴄʀɪʙᴇᴅ ᴛᴏ ᴏᴜʀ ᴄʜᴀɴɴᴇʟs ʏᴇᴛ, sᴜʙsᴄʀɪʙᴇ ɴᴏᴡ ᴛᴏ ɢᴇᴛ ʏᴏᴜʀ ғɪʟᴇs.\n\n›› ᴅᴇᴠᴇʟᴏᴘᴇᴅ ғᴏʀ : [ @Anime_Raven ]</b>")
 
 #set your Custom Caption here, Keep None for Disable Custom Caption
 CUSTOM_CAPTION = os.environ.get("CUSTOM_CAPTION", None)
